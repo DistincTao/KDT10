@@ -49,6 +49,8 @@ while i < 3 :
     print("%d : python while statement " % i)
     i += 1
 
+# break
+
 j = 0
 while True :
     print("Hello %d" % j)
@@ -56,7 +58,21 @@ while True :
     if (j == 4) :
         break
 
-#
+# continue
+k = 0
+while k < 5 :
+    k = k + 1
+    if k % 2 == 0 :
+        continue
+    print(k)
+# pass
+
+m = 0
+while m < 10 :
+    m += 1
+    if m %2 == 0 :
+        pass
+    print(m)
 
 
 # 1에서 100까지 합계를 구하되, 3의 배수는 제외
