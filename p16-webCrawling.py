@@ -64,3 +64,4 @@ if html is not None :
             # ----- 이미지 저장 -----
             imagePath = "D:\Lectures\Python\\testthumb\\"
             urllib.request.urlretrieve(thumbNameImg, imagePath + "thumbNail_" + productNo + thumbNameImg[-4:])
+            time.sleep(0.1)
