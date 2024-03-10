@@ -65,12 +65,12 @@ while k < 5 :
     if k % 2 == 0 :
         continue
     print(k)
-# pass
 
+# pass
 m = 0
 while m < 10 :
     m += 1
-    if m %2 == 0 :
+    if m % 2 == 0 :
         pass
     print(m)
 
